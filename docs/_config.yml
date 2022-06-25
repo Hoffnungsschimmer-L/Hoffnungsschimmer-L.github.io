@@ -1,0 +1,11 @@
+
+title: Hoffnungsschimmer
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  胡乱讲些，你也别信。
+baseurl: "" # the subpath of your site, e.g. /blog
+
+plugins:
+  - jekyll-feed
+
+theme: jekyll-theme-slate
