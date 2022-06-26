@@ -45,8 +45,7 @@ key west的影像，实在太迷人了。<br>
 * * *
 <br>
 
-￼<img src="/assets/220828-1.png" style="height:90%; width:90%" ><br><br>
-<img src="/assets/220828-2.png" style="height:90%; width:90%"  ><br>
+￼<img src="/assets/220828-1.png" style="height:90%; width:90%" ><br>
 <p style = "font-size:12px;color:#999999">清晨醒来出去兜风。<br></p>
 
 
