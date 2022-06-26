@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h4> Notes </h4>
+<ul>
+  {% for item in site.notes %}
+    <li>
+        <h5 style = "line-height :20px;">
+            <a href="{{ item.url }}">{{ item.author }}</a></h5>
+    </li>
+  {% endfor %}
+  
+</ul>
+<br><br>
+<a href="/">Home</a>

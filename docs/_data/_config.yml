@@ -1,3 +1,11 @@
 - name: Home
   link: /
 
+- name: Notes
+  link: /notes.html
+  
+- name: Miscs
+  link: /Miscs.html
+- name: Posts
+  link: /Posts.html
+
