@@ -1,7 +1,7 @@
 ---
 layout: post
 author: L
-category: A
+categories: [A,Fav]
 ---
 
 <img src="/assets/220828-3.png"  style="height:100%; width:100%" ><br><br>
