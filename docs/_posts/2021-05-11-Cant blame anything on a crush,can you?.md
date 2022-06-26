@@ -26,6 +26,6 @@ crush不就这一瞬间么？怎么能指望它带来多深刻甚至多长久的
 <br>
 * * *
 <br>
-当初在Michigan的crush，遗憾竟都是同样的遗憾，结束也都是同样的草率。<br>
-sigh.<br>
+<p style = "font-size:10px;color:#fafafa;">当初在Michigan的crush，遗憾竟都是同样的遗憾，结束也都是同样的草率。<br>
+sigh.<br></p>
 
