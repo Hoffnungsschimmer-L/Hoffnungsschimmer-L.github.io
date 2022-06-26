@@ -4,8 +4,8 @@ author: L
 category: A
 ---
 
-<img src="/assets/220828-3.png"  style="height:80%; width:80%" ><br><br>
-<img src="/assets/220828-4.png"  style="height:80%; width:80%" ><br>
+<img src="/assets/220828-3.png"  style="height:100%; width:100%" ><br><br>
+<img src="/assets/220828-4.png"  style="height:100%; width:100%"  ><br>
 <p style = "font-size:10px;color:#999999">不得不讲Park Hyatt的窗景是真的绝。</p><br>
 
 我始终喜欢和纷扰世界隔着一张玻璃的感觉。<br>
@@ -45,7 +45,7 @@ key west的影像，实在太迷人了。<br>
 * * *
 <br>
 
-￼<img src="/assets/220828-1.png" style="height:90%; width:90%" ><br>
+￼<img src="/assets/220828-1.png" style="height:100%; width:100%" ><br>
 <p style = "font-size:12px;color:#999999">清晨醒来出去兜风。<br></p>
 
 
