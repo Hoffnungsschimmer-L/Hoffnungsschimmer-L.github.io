@@ -237,7 +237,11 @@ dl p {
 }
 
 hr {
- color:#999999;
+  height: 1px;
+  background-color: #bababa;
+  border-color:#bababa;
+  border: none;
+
 }
 
 table {
