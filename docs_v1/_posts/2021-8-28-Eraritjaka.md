@@ -2,6 +2,10 @@
 layout: post
 author: L
 categories: [A,Fav]
+
+tags:
+    - Post
+    - Fav
 ---
 
 <img src="/assets/220828-3.png"  style="height:100%; width:100%" ><br><br>
