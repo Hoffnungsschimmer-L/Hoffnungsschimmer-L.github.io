@@ -1,44 +1,65 @@
 ---
-layout: default
+layout: page
+description: "感觉千万人恸哭，隔着言语的高墙"
 ---
 
-<h4><a href="/Posts" style="color: #313131; font-size:18px"> Posts </a></h4>
-<h4><a href="/Miscs" style="color: #313131; font-size:18px"> Miscs </a></h4>
-
-<h4><a href="/Fav" style="color: #313131; font-size:18px"> Personal Favorites </a></h4>
-<h4><a href="/Notes" style="color: #313131; font-size:18px"> Notes </a></h4>
-<br>
-<h4 style="color: #212121; font-size:20px"> Latest </h4>
 
 
 
-
-<ul>
-  {% for post in site.posts limit:10 %}
-    <li>
-        {% if (post.categories[0] == 'A') %}
-        <h5 style = "line-height :20px;">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            <span style= "font-size:10px;color:#313131;" >
-                {{ post.date | date_to_string }}</span>
-            
-        </h5>
-        {{post.excerpt }}
-
+{% for post in paginator.posts %}
+<div class="post-preview item" >
+    
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        {% if post.categories[0] == 'A' %}
+            <h2 class="post-title">
+            {{ post.title }} <span style= "font-size:12px;color:#999999;" >
+            {{ post.date | date_to_string }}</span>
+            </h2>
+        
+            {% if post.title == 'X' %}
+                <div class="post-content-preview">
+                {{ post.excerpt }}
+                </div>
+            {% else %}
+                <div class="post-content-preview">
+                    {% if post.lang == 'en' %}
+                        {{ post.content | strip_html | truncate:300 }}
+                    {% else %}
+                        {{ post.content | strip_html | truncate:200 }}
+                    {% endif %}
+                </div>
+        
+            {% endif %}
         
         {% else %}
-        <h5 style = "line-height :20px;">
-            <a href="{{ post.url }}">
-            <span style= "font-size:10px;color:#999999;" >
+        
+        <h2 class="post-title">
+            <span style= "font-size:12px;color:#999999;" >
                 {{ post.date | date_to_string }}</span>
-           </a>
-        </h5>
-        {{ post.excerpt }}
+        </h2>
+        <div class="post-content-preview">
+            {{ post.excerpt }}
+        </div>
         {% endif %}
+        
+    </a>
 
-      <br>
-      <hr>
-      
+</div>
+<hr>
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
     </li>
-  {% endfor %}
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
 </ul>
+{% endif %}

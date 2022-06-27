@@ -1,0 +1,18 @@
+
+
+title: Hoffnungsschimmer
+description: >- # this means to ignore newlines until "baseurl:"
+  胡乱讲些，你也别信。
+baseurl: "" # the subpath of your site, e.g. /blog
+
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: pages-themes/slate@v0.2.0
+
+collections:
+  notes:
+    output: true
+
+    

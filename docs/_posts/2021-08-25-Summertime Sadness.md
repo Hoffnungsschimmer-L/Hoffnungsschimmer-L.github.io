@@ -3,6 +3,9 @@ layout: post
 author: L
 category: A
 title: Summertime Sadness
+
+tags:
+    - Post
 ---
 
 “我们是不可能战胜生命中的所有不幸的。”<br>

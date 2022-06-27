@@ -2,6 +2,9 @@
 layout: post
 author: L
 category: A
+
+tags:
+    - Post
 ---
 
 上周末，当初搭讪来的医生姐姐说可能真是春天了吧。那两天我俩惦记和被惦记的新人故人真是莫名层出不穷。<br>
