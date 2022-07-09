@@ -15,7 +15,10 @@ layout: default
         </h5>
             {% if (post.title == 'X') %}
             {{ post.excerpt }}
+            <a style = "font-size:12px" href="{{ post.url }}">read more</a>
             {% endif %}
+            
+        
 
         
         {% else %}
@@ -26,6 +29,7 @@ layout: default
            </a>
         </h5>
         {{ post.excerpt }}
+        <a style = "font-size:12px" href="{{ post.url }}">read more</a>
         {% endif %}
 
       <br>
