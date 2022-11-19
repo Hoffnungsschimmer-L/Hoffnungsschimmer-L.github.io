@@ -2,6 +2,7 @@
 layout: post
 author: L
 category: A
+excerpt: ""
 
 tags:
     - Post

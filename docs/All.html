@@ -2,19 +2,10 @@
 layout: default
 ---
 
-<h4><a href="/Posts" style="color: #313131; font-size:18px"> Posts </a></h4>
-<h4><a href="/Miscs" style="color: #313131; font-size:18px"> Miscs </a></h4>
-<h4><a href="/All" style="color: #313131; font-size:18px"> All </a></h4>
-<h4><a href="/Fav" style="color: #313131; font-size:18px"> Personal Favorites </a></h4>
-<h4><a href="/Notes" style="color: #313131; font-size:18px"> Notes </a></h4>
+
 <br>
-<h4 style="color: #212121; font-size:20px"> Latest </h4>
-
-
-
-
 <ul>
-  {% for post in site.posts limit:10 %}
+  {% for post in site.posts %}
     <li>
         {% if (post.categories[0] == 'A') %}
         <h5 style = "line-height :20px;">
@@ -43,3 +34,6 @@ layout: default
     </li>
   {% endfor %}
 </ul>
+
+<br><br>
+<a href="/">Home</a>

@@ -3,13 +3,13 @@ layout: post
 author: L
 category: A
 title: Uncertainty.  I beilieve or no I don't
-
+excerpt: 我所说出的最粗糙的语言中，那些温柔的不可侵犯的言辞将自己藏了起来。<br>
 tags:
     - Post
 ---
 
 ——“我所说出的最粗糙的语言中，那些温柔的不可侵犯的言辞将自己藏了起来。”<br>
- <br>
+<br>
 * * * 
 <br>
 更年轻的时候，like back in high school，我常常希望有思绪记录仪一类的东西——我的想法总是太快太多太杂，实在难以用笔，哪怕用打字一一记录下来。<br>

@@ -2,7 +2,7 @@
 layout: post
 author: L
 categories: [A,Fav]
-
+excerpt: 一个海边记忆。<br>
 tags:
     - Post
     - Fav
